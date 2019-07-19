@@ -6,58 +6,48 @@
     Background-color:#fde5db
  } </style>
 
-<head> 
+ <head> 
   <link href="CSS/Style.css" rel="stylesheet" type="text/css">
- 	<title>About Me</title> 
-</head> 
-
-<body> 
-    <nav>
-        <div class="TopNav">
-
-<table>
-    <tr>
-      <td> Home </td>
-      <td> About </td>
-      <td> Portfoio </td>
-      <td> Contact</td>
-     <td> LinkedIn</td>
-     <td> Email</td>
-     <td> Github</td>
-     <td> Search</td>
-    </tr>
-  <table> 
+   <title>About Me</title> 
+   <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+ </head> 
+ 
+ <body>
   
-      </nav>
+<header>
+  <nav>
+    <div class="TopLeftNav">
+        <ul>
+          <li> Home </li>
+          <li> About </li>
+          <li> Portfoio </li>
+          <li> Contact</li>
+        </ul>
+    </div>  
+   
+    <div class="TopRightNav">
+        <ul>
+          <li><a href="https://www.linkedin.com/in/allisonewing24/">LinkedIn</a></li>
+          <li><a href="https://github.com/arewing94">Github</a></li>
+          <li><a href="arewing1994@gmail.com">Email</a></li>
+          <li><a href="https://www.google.com">Search</a></li>
+              <!-- the search is currently active as a google serach & email does not properly link-->
 
-      <!--
-      <nav>
-        
-          <div class="TopLeftNav">
-           <div href="https://www.linkedin.com/feed/" class="inline-block">LinkedIn</div></td> 
-            <div href="emaillink"> Email</div>
-            <div href="githublink">Github</div>
-            <div href="searchbar">Search</div>
-            </tr>
-          
-          
-            things to do here 
-              1.insert some sort of box element for the serach bar
-            2. Figure out Class (what it is and how to name it best)
-            3. correct href
-            4. style all this
-          
-          </div>
-      </nav>
-      -->
-  
+        </ul>
+    </div>
+  </nav> 
+</header>
+
+
   <h1>Allison Ewing</h1> 
 
-  <img src="image/sority pic06012012_1628.jpg">
+
+  
+  <div class="profilepicture">
+    <img src="image/sority pic06012012_1628.jpg">
   </div>
-
-
-  <p>I have always had a passion for knowledge on the why of human 
+  <div class="pic-text">
+      <p class="AboutText">I have always had a passion for knowledge on the why of human 
       behavior. I found that UX Research and UX Design to be one way to 
       quench my thirst for this knowledge. 
       
@@ -65,17 +55,60 @@
       informational architecture, as well as crafting simple UX writing to 
       help keep with the brand. The pieces in my portfolio featured below 
       highlight my ability to collect, analyze and synthesis information to 
-      iterate the data into a digital product.</p> 
-    <h2>Other Skills</h2>
+      iterate the data into a digital product.
+      </p> 
+      <h2>Other Skills</h2>
       <ol>
         <li>Leadership</li>
         <li>Public Speaking</li>
         <li>Anaylitical Anaylsis</li>
         <li>Writing</li>
       </ol>
+  </div>
 
-      <p>Things I am doing when I am not studying human behavior for UX:</p>
-<!-- Look at all the pictures and set a size also check out Zelpin with XD-->
+ 
+
+
+
+
+      <h3>Things I am doing when I am not studying human behavior for UX:</h3>
+  <!-- Look at all the pictures and set a size also check out Zelpin with XD-->
+
+
+
+    <div class="row">
+      <div class ="column">
+          <img src="Image/InPlane.jpeg" alt="Allison with Fiance Cale in Plane" style="width:33%">
+          <p class="longword">You can catch me flying shotgun with my fiancé Cale. </p>
+      </div>
+
+      <div class ="column" id="StJudes">
+          <img src="Image/St.Judes.png" alt="Allison with dog Bosco at St. Judes 5k fundraiser run" style="width:33%; height:232px;">
+          <p class="longword"> Fundraising/volunteering for multiple causes. This photo is after the annual St. Jude Fundraiser 5k, where I have been a top 10 individual fundraiser since I have started with them. </p> 
+      </div>
+
+      <div class ="column">
+          <img src="Image/GrandCanyon.jpeg" alt="Allison at Grand Canyon" style="width:33%">
+          <p class="longword"> Hiking the Grand Canyon, or basically anything else outside. </p> 
+      </div>
+    </div>
+
+
+
+
+
+
+
+ </body>
+</html>
+
+
+
+
+
+
+
+  <!--
       <img src="image/InPlane.jpeg">
       <p>You can catch me flying shot gun with 
           my fiancé. </p>
@@ -91,10 +124,4 @@
       <p>Hiking the Grand Canyon, and yes I am wearing 
           the same sunglasses in all three pictures…they
           are my favorite!</p>
-
-<!-- 
-  <a href="https://www.google.com">Hi, I'm a link! I take you to other places on the web</a>
-  -->
-
-</body>
-</html>
+      -->
